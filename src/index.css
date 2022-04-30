@@ -77,4 +77,20 @@ body *{
     margin-top: 27px;
     margin-right: 783px;
     color: #e73f5d;
+    margin-bottom: 19px;
+  }
+
+  #lista {
+    font-family: 'Poppins', sans-serif;
+    width: 714px;
+    height: 108px;
+    margin-left: 380px;
+    font-size: 24px;
+    list-style: none;
+    color: #0072B0;
+
+  }
+  
+  b{
+    color: #00891e;
   }
