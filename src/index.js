@@ -12,6 +12,8 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    //dirname pega da raiz e nosso icone esta fora da raiz, usando o /.. para sair da pasta src
+    icon: `${__dirname}/../car.png`
   });
 
   // and load the index.html of the app.

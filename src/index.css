@@ -56,6 +56,7 @@ body *{
 
   .lava {
     margin-bottom: 80px;
+
   }
 
 #b{
@@ -73,21 +74,21 @@ body *{
   }
 
   .v{
-    margin-left: 433px;
     margin-top: 27px;
-    margin-right: 783px;
     color: #e73f5d;
     margin-bottom: 19px;
+    text-align: start;
+    width: 714px;
   }
 
   #lista {
     font-family: 'Poppins', sans-serif;
     width: 714px;
     height: 108px;
-    margin-left: 380px;
     font-size: 24px;
     list-style: none;
     color: #0072B0;
+    text-align: start;
 
   }
   
