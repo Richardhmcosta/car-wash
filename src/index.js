@@ -8,9 +8,9 @@ if (require('electron-squirrel-startup')) {
 }
 
 const createWindow = () => {
-  
+
   // Create the browser window.
-  const mainWindow = new BrowserWindow({
+  const mainWindow = new BrowserWindow( {
     width: 800,
     height: 600,
     //dirname pega da raiz e nosso icone esta fora da raiz, usando o /.. para sair da pasta src
