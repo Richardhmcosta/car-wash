@@ -7,6 +7,7 @@ const valorInput = document.getElementById("a").value
 const valorInputb = document.getElementById("b").value
 const valorInputc = document.getElementById("c").value
 
+
 //Pegando a nossa tag pelo ID (tag UL)
 const minhaTagUl = document.getElementById("lista")
 
@@ -14,7 +15,7 @@ const minhaTagUl = document.getElementById("lista")
 const tagLi = document.createElement("li")
 
 //Adiconando nosso texto responsável por remover os itens
-const tagRemover = `<b onclick='removerItem(event)' > Liberar </b>`
+const tagRemover = `<b class="liberar" onclick='removerItem(event)' > Liberar </b>`
 
 //Mostrando os dados do usário em linha
 tagLi.innerHTML = `Veiculo: ${valorInput} | Placa: ${valorInputb} | Dono: ${valorInputc}` + tagRemover
